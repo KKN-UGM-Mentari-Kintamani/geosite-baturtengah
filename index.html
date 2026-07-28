@@ -1,416 +1,526 @@
-	<!DOCTYPE html>
-	<html lang="zxx" class="no-js">
-	<head>
-		<!-- Mobile Specific Meta -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<!-- Favicon-->
-		<link rel="shortcut icon" href="img/fav.png">
-		<!-- Author Meta -->
-		<meta name="author" content="">
-		<!-- Meta Description -->
-		<meta name="description" content="">
-		<!-- Meta Keyword -->
-		<meta name="keywords" content="">
-		<!-- meta character set -->
-		<meta charset="UTF-8">
-		<!-- Site Title -->
-		<title>Tour India</title>
-        <link rel="icon" href="./img/j.jpg" type="image/jpg">
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
-			<!--CSS============================================= -->
-			<link rel="stylesheet" href="css/linearicons.css">
-			<link rel="stylesheet" href="css/font-awesome.min.css">
-			<link rel="stylesheet" href="css/bootstrap.css">
-			<link rel="stylesheet" href="css/magnific-popup.css">
-			<link rel="stylesheet" href="css/nice-select.css">					
-			<link rel="stylesheet" href="css/animate.min.css">
-			<link rel="stylesheet" href="css/owl.carousel.css">
-			<link rel="stylesheet" href="css/main.css">
-		</head>
-		<body>
-			<div class="protfolio-wrap">
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
 
-			<!-- Start Header Area -->
-			<header class="default-header">
-				<nav class="navbar navbar-expand-lg  navbar-light">
-					<div class="container">
-						  <a class="navbar-brand" href="index.html">
-						  	<img src="img/logo.png" alt="">
-						  </a>
-						  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						    <span class="text-white lnr lnr-menu"></span>
-						  </button>
+<head>
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Author Meta -->
+	<meta name="author" content="">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>Geopark</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+	<!--CSS============================================= -->
+	<link rel="stylesheet" href="css/linearicons.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/nice-select.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
 
-						  <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
-						    <ul class="navbar-nav">
-								<li><a href="./Pages-inside/blog.html">Blogs</a></li>
-								<li><a href="#portfolio">Places</a></li>
-								<li><a href="#service">Services</a></li>
-								<li><a href="./Pages-inside/About.html">About Us</a></li>
-						    </ul>
-						  </div>						
+<body>
+	<div class="protfolio-wrap">
+		<!-- Start Floating Header Area -->
+		<header class="default-header">
+			<nav class="floating-navbar">
+				<a class="nav-brand" href="index.html">
+					Geohub
+				</a>
+				<ul class="nav-links">
+					<li><a href="index.html" class="active" data-i18n="nav_home">Home</a></li>
+					<li><a href="#portfolio" data-i18n="nav_places">Geosite</a></li>
+					<li><a href="#" id="lang-toggle-btn" class="lang-btn">indonesia</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!-- End Floating Header Area -->
+		<!-- start banner Area -->
+		<section class="banner-area relative" id="home" style="overflow: hidden; background: transparent;">
+			<!-- Background Video -->
+			<video autoplay muted loop playsinline id="bg-video"
+				style="position: absolute; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -1; transform: translateX(-50%) translateY(-50%); object-fit: cover;">
+				<source src="video/background.mp4" type="video/mp4">
+			</video>
+			<div class="overlay overlay-bg"></div>
+			<div class="container">
+				<div class="row fullscreen d-flex align-items-center justify-content-center">
+					<div class="banner-content col-lg-10">
+						<h5 class="text-uppercase" data-i18n="banner_sub">Be the part of this Wonderful Journey</h5>
+						<h1 data-i18n="banner_title">Incredible Bali!</h1>
+						<a href="#portfolio" class="primary-btn text-uppercase" data-i18n="banner_btn">Explore Now</a>
 					</div>
-				</nav>
-			</header>
-			<!-- End Header Area -->	
-				<!-- start banner Area -->
-				<section class="banner-area relative" id="home">	
-					<div class="overlay overlay-bg"></div>
-					<div class="container">
-						<div class="row fullscreen d-flex align-items-center justify-content-center">
-							<div class="banner-content col-lg-10">
-								<h5 class="text-uppercase">Be the part of this Wonderful Journey</h5>
-								<h1>
-									Incredible India!				
-								</h1>
-								<a href="#" class="primary-btn text-uppercase">Explore Now</a>
-							</div>											
-						</div>
-					</div>
-				</section>
-				<!-- End banner Area -->	
-				
-				<!-- Start portfolio-area Area -->	
-				<section class="portfolio-area section-gap" id="portfolio">
-				  <div class="container">
-						<div class="row d-flex justify-content-center">
-							<div class="menu-content col-lg-10">
-								<div class="title text-center">
-									<h1 class="mb-10">You'll fall in love with India</h1>
-									<p>Explore India from Kashmir to Kaniyakumari</p>
-								</div>
-							</div>
-						</div>
-				    
-				    <div class="filters">
-				      <ul>
-				        <li class="active" data-filter="*">All</li>
-				        <li data-filter=".corporate">North</li>
-				        <li data-filter=".personal">Central</li>
-				        <li data-filter=".agency">North-Eastern</li>
-				        <li data-filter=".portal">South</li>
-				      </ul>
-				    </div>
-				    
-				    <div class="filters-content">
-				      <div class="row grid">
-				        <div class="single-portfolio col-sm-4 all corporate">
-				          <div class="item">
-				            <img src="img/p1.jpg" alt="Work 1">
-				            <div class="p-inner">
-				              <h4><a href="./Pages-inside/GoldenTemple-Info.html">Golden Temple</a></h4>
-				              <div class="cat">Punjab</div>
-				            </div>
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-4 all personal">
-				          <div class="item">
-				            <img src="img/p2.jpg" alt="Work 1">
-				            <div class="p-inner">
-				              <h4>Gwalior Fort</h4>
-				              <div class="cat">Madhya Pradesh</div>
-				            </div>
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-4 all agency">
-				          <div class="item">
-				            <img src="img/p9.jpg" alt="Work 1">
-				            <div class="p-inner">
-				              <h5>Twang</h5>
-				              <div class="cat">Arunachal Pradesh</div>
-				            </div>
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-4 all portal">
-				          <div class="item">
-				            <img src="img/p12.jpg" alt="Work 1">
-				            <div class="p-inner">
-				              <h5>Alleppey</h5>
-				              <div class="cat">Kerala</div>
-				            </div>
-				          </div>
-				        </div>
-
-				        <div class="single-portfolio col-sm-4 all corporate">
-				          <div class="item">
-				            <img src="img/p5.jpg" alt="Work 1">
-				            <div class="p-inner">
-				              <h4>Camel Safari</h4>
-				              <div class="cat">Rajasthan</div>
-				            </div>
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-4 all personal">
-				          <div class="item">
-				            <img src="img/p6.jpg" alt="Work 1">
-				            <div class="p-inner">
-				              <h4>Sanchi Stupa</h4>
-				              <div class="cat">Madhya Pradesh</div>
-				            </div>
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-4 all agency">
-				          <div class="item">
-				            <img src="img/p7.jpg" alt="Work 1">
-				            <div class="p-inner">
-				              <h5>Umngot river</h5>
-				              <div class="cat">Meghalaya</div>
-				            </div>
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-4 all portal">
-				          <div class="item">
-				            <img src="img/p10.jpg" alt="Work 1">
-				            <div class="p-inner">
-				              <h5>Vivekananda Rock Memorial</h5>
-				              <div class="cat">Tamil Nadu</div>
-				            </div>
-				          </div>
-				        </div>		
-				        <div class="single-portfolio col-sm-4 all corporate">
-				          <div class="item">
-				            <img src="img/p4.jpg" alt="Work 1">
-				            <div class="p-inner">
-				              <h4>Mehrangarh Fort</h4>
-				              <div class="cat">Rajasthan</div>
-				            </div>
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-4 all personal">
-				          <div class="item">
-				            <img src="img/p3.jpg" alt="Work 1">
-				            <div class="p-inner">
-				              <h4>Hampi</h4>
-				              <div class="cat">Karnataka</div>
-				            </div>
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-4 all agency">
-				          <div class="item">
-				            <img src="img/p8.jpg" alt="Work 1">
-				            <div class="p-inner">
-				              <h5>Mon</h5>
-				              <div class="cat">Myanmar</div>
-				            </div>
-				          </div>
-				        </div>
-				        <div class="single-portfolio col-sm-4 all portal">
-				          <div class="item">
-				            <img src="img/p11.jpg" alt="Work 1">
-				            <div class="p-inner">
-				              <h5>Colva Beach</h5>
-				              <div class="cat">Goa</div>
-				            </div>
-				          </div>
-				        </div>					        		        
-				        
-				      </div>
-				    </div>
-				    
-				  </div>
-				</section>
-				<!-- End portfolio-area Area -->	
-
-				
-				<!-- Start service Area -->
-				<section class="service-area section-gap relative" id="service">
-					<div class="overlay overlay-bg"></div>	
-					<div class="container">
-						<div class="row d-flex justify-content-center">
-							<div class="menu-content pb-60 col-lg-10">
-								<div class="title text-center">
-									<h1 class="mb-10 text-white">Always in our customer Favour</h1>
-									<p>Who are always with tight Budget</p>
-								</div>
-							</div>
-						</div>	
-					</div>	
-				</section>
-				<!-- End service Area -->
-				
-				<!-- Start services Area -->
-				<section class="services-area pb-100" >
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-4">
-								<div class="single-service">
-									<img class="img-fluid" src="img/s1.png" alt="">
-									<h4>Ammenties Selection</h4>
-									<p>
-										It's totaly on you what you want and what you want to let it go on Hotel Selection process.
-									</p>
-								</div>
-							</div>
-							<div class="col-lg-4">
-								<div class="single-service">
-									<img class="img-fluid" src="img/s2.png" alt="">
-									<h4>Visa Ready</h4>
-									<p>
-										Just 32 Hours - What it takes get your Visa Ready and other documentation necessary for travel.
-									</p>
-								</div>
-							</div>
-							<div class="col-lg-4">
-								<div class="single-service">
-									<img class="img-fluid" src="img/s3.png" alt="">
-									<h4>Personalized Travel Plans</h4>
-									<p>
-										We have wide Varieties of Hotel &amp; Resorts to accomodate you. 3D4N or 15D16N totally upto you.
-									</p>
-								</div>
-							</div>														
-						</div>
-					</div>	
-				</section>
-				<!-- End services Area -->
-				
-				<!-- Start review Area -->
-				<section class="review-area section-gap" id="testimonial">
-					<div class="container">
-						<div class="row d-flex justify-content-center">
-							<div class="menu-content pb-60 col-lg-10">
-								<div class="title text-center">
-									<h1 class="mb-10">How Our Customers felt for Us</h1>
-									<p>Who are in extreme love with friendly &amp; inviting people</p>
-								</div>
-							</div>
-						</div>							
-						<div class="row">
-							<div class="col-lg-6">
-								<div class="single-review">
-									<img src="img/c1.png" alt="">
-									<div class="title d-flex flex-row">
-										<a href="#"><h4>Fannie Rowe</h4></a>									
-										<div class="star">
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-										</div>
-									</div>
-									<p>
-										It was a life Experience to visit such a beautiful cultural country.
-									</p>
-								</div>	
-								<div class="single-review">
-									<img src="img/c3.png" alt="">
-									<div class="title d-flex flex-row">
-										<a href="#"><h4>Lillie Summers</h4></a>									
-										<div class="star">
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-										</div>
-									</div>
-									<p>
-										Just one Word - Incredible!
-									</p>
-								</div>															
-							</div>
-							<div class="col-lg-6">
-								<div class="single-review">
-									<img src="img/c2.png" alt="">
-									<div class="title d-flex flex-row">
-										<a href="#"><h4>Bob Marley</h4></a>									
-										<div class="star">
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-starchecked"></span>
-											<span class="fa fa-star checked"></span>
-										</div>
-									</div>
-									<p>
-										Damm! I'm thinking of staying here in this World.
-									</p>
-								</div>	
-								<div class="single-review">
-									<img src="img/c4.png" alt="">
-									<div class="title d-flex flex-row">
-										<a href="#"><h4>Jackie Chan</h4></a>									
-										<div class="star">
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-										</div>
-									</div>
-									<p>
-										Now, I am big fan of Power Yoga. Thanks for such a gift to this world.
-									</p>
-								</div>															
-							</div>							
-						</div>
-                    </div>	
-				</section>
-				<!-- End review Area -->
-				
-
-				<!-- start footer Area -->		
-				<footer class="footer-area section-gap">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-5 col-md-6 col-sm-6">
-								<div class="single-footer-widget">
-									<h6>About Us</h6>
-									<p>
-										We Provide Tour Plans for your most comfortable travel ever. Let yourself dive into the Beauty, Culture &amp; festivals of India. Have You're Good time at India.
-									</p>
-									<p class="footer-text">
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This Website is created with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://github.com/mrjatinchauhan" target="_blank">Jatin Chauhan</a>
-								</p>	
-								</div>
-							</div>
-							<div class="col-lg-5  col-md-6 col-sm-6">
-								<div class="single-footer-widget">
-									<h6>Newsletter</h6>
-									<p>Stay update with our latest</p>
-									<div class="" id="mc_embed_signup">
-							         <form target="_blank"  action="" method="get" class="form-inline">
-											<input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Your Email Here '" required="" type="email">
-				                            	<button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
-				                           
-											<div class="info"></div>
-										</form>
-									</div>
-								</div>
-							</div>						
-							<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
-								<div class="single-footer-widget">
-									<h6>Follow Us</h6>
-									<p>Let us be social</p>
-									<div class="footer-social d-flex align-items-center">
-										<a href="#"><i class="fa fa-facebook"></i></a>
-										<a href="#"><i class="fa fa-twitter"></i></a>
-										<a href="#"><i class="fa fa-snapchat"></i></a>
-										<a href="#"><i class="fa fa-instagram"></i></a>
-									</div>
-								</div>
-							</div>							
-						</div>
-					</div>
-				</footer>	
-				<!-- End footer Area -->					
+				</div>
 			</div>
-			<script src="js/vendor/jquery-2.2.4.min.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-			<script src="js/vendor/bootstrap.min.js"></script>			
-  			<script src="js/easing.min.js"></script>			
-			<script src="js/jquery.ajaxchimp.min.js"></script>
-			<script src="js/jquery.magnific-popup.min.js"></script>	
-			<script src="js/owl.carousel.min.js"></script>			
-			<script src="js/jquery.sticky.js"></script>			
-			<script src="js/jquery.nice-select.min.js"></script>			
-			<script src="js/parallax.min.js"></script>	
-			<script src="js/mail-script.js"></script>
-			<script src="js/isotope.pkgd.min.js"></script>	
-			<script src="js/main.js"></script>	
-		</body>
-	</html>
+		</section>
+		<!-- End banner Area -->
 
+		<!-- Start portfolio-area Area -->
+		<section class="portfolio-area section-gap" id="portfolio">
+			<div class="container">
+				<div class="row d-flex justify-content-center">
+					<div class="menu-content col-lg-10">
+						<div class="title text-center">
+							<h1 class="mb-10" data-i18n="portfolio_title">Explore Batur UNESCO Global Geopark</h1>
+							<p data-i18n="portfolio_sub">21 Geological Heritage Sites to Discover</p>
+						</div>
+					</div>
+				</div>
 
+				<div class="filters">
+					<ul>
+						<li class="active" data-filter="*" data-i18n="filter_all">All</li>
+						<li data-filter=".corporate" data-i18n="filter_calderas">Calderas</li>
+						<li data-filter=".personal" data-i18n="filter_mountains">Mountains</li>
+						<li data-filter=".agency" data-i18n="filter_lava">Lava Flows</li>
+						<li data-filter=".portal" data-i18n="filter_others">Others</li>
+					</ul>
+				</div>
 
+				<div class="filters-content">
+					<div class="row grid">
+						<!-- BGS 1 Kaldera Batur I -->
+						<div class="single-portfolio col-sm-4 all corporate">
+							<div class="item">
+								<a href="./Pages-inside/BGS1-Info.html"><img src="img/p1.jpg" alt="Kaldera Batur I"></a>
+								<div class="p-inner">
+									<h4><a href="./Pages-inside/BGS1-Info.html">Kaldera Batur I</a></h4>
+									<div class="cat">Kaldera (Calderas)</div>
+								</div>
+							</div>
+						</div>
+						<!-- BGS 2 Kaldera Batur II -->
+						<div class="single-portfolio col-sm-4 all corporate">
+							<div class="item">
+								<a href="./Pages-inside/BGS2-Info.html"><img src="img/p2.jpg" alt="Kaldera Batur II"></a>
+								<div class="p-inner">
+									<h4><a href="./Pages-inside/BGS2-Info.html">Kaldera Batur II</a></h4>
+									<div class="cat">Kaldera (Calderas)</div>
+								</div>
+							</div>
+						</div>
+						<!-- BGS 3 Kerucut I G. Batur -->
+						<div class="single-portfolio col-sm-4 all personal">
+							<div class="item">
+								<a href="./Pages-inside/BGS3-Info.html"><img src="img/p3.jpg" alt="Kerucut I G. Batur"></a>
+								<div class="p-inner">
+									<h4><a href="./Pages-inside/BGS3-Info.html">Kerucut I G. Batur</a></h4>
+									<div class="cat">Kerucut Gunung Api &amp; Pegunungan</div>
+								</div>
+							</div>
+						</div>
+						<!-- BGS 4 Kerucut II G. Batur -->
+						<div class="single-portfolio col-sm-4 all personal">
+							<div class="item">
+								<a href="./Pages-inside/BGS4-Info.html"><img src="img/p4.jpg" alt="Kerucut II G. Batur"></a>
+								<div class="p-inner">
+									<h4><a href="./Pages-inside/BGS4-Info.html">Kerucut II G. Batur</a></h4>
+									<div class="cat">Kerucut Gunung Api &amp; Pegunungan</div>
+								</div>
+							</div>
+						</div>
+						<!-- BGS 5 Kerucut III G. Batur -->
+						<div class="single-portfolio col-sm-4 all personal">
+							<div class="item">
+								<a href="./Pages-inside/BGS5-Info.html"><img src="img/p5.jpg" alt="Kerucut III G. Batur"></a>
+								<div class="p-inner">
+									<h4><a href="./Pages-inside/BGS5-Info.html">Kerucut III G. Batur</a></h4>
+									<div class="cat">Kerucut Gunung Api &amp; Pegunungan</div>
+								</div>
+							</div>
+						</div>
+						<!-- BGS 6 Gunung Abang -->
+						<div class="single-portfolio col-sm-4 all personal">
+							<div class="item">
+								<a href="./Pages-inside/BGS6-Info.html"><img src="img/p6.jpg" alt="Gunung Abang"></a>
+								<div class="p-inner">
+									<h4><a href="./Pages-inside/BGS6-Info.html">Gunung Abang</a></h4>
+									<div class="cat">Kerucut Gunung Api &amp; Pegunungan</div>
+								</div>
+							</div>
+						</div>
+						<!-- BGS 7 Gunung Payang -->
+						<div class="single-portfolio col-sm-4 all personal">
+							<div class="item">
+								<a href="./Pages-inside/BGS7-Info.html"><img src="img/p7.jpg" alt="Gunung Payang"></a>
+								<div class="p-inner">
+									<h4><a href="./Pages-inside/BGS7-Info.html">Gunung Payang</a></h4>
+									<div class="cat">Kerucut Gunung Api &amp; Pegunungan</div>
+								</div>
+							</div>
+						</div>
+						<!-- BGS 8 Kerucut Sinder Sampeanwani -->
+						<div class="single-portfolio col-sm-4 all personal">
+							<div class="item">
+								<a href="./Pages-inside/BGS8-Info.html"><img src="img/p8.jpg" alt="Kerucut Sinder Sampeanwani"></a>
+								<div class="p-inner">
+									<h4><a href="./Pages-inside/BGS8-Info.html">Sinder Sampeanwani</a></h4>
+									<div class="cat">Kerucut Gunung Api &amp; Pegunungan</div>
+								</div>
+							</div>
+						</div>
+						<!-- BGS 9 Gunung Bunbulan -->
+						<div class="single-portfolio col-sm-4 all personal">
+							<div class="item">
+								<a href="./Pages-inside/BGS9-Info.html"><img src="img/p9.jpg" alt="Gunung Bunbulan"></a>
+								<div class="p-inner">
+									<h4><a href="./Pages-inside/BGS9-Info.html">Gunung Bunbulan</a></h4>
+									<div class="cat">Kerucut Gunung Api &amp; Pegunungan</div>
+								</div>
+							</div>
+						</div>
+						<!-- BGS 10 Kerucut Sinder Yehmampeh -->
+						<div class="single-portfolio col-sm-4 all personal">
+							<div class="item">
+								<a href="./Pages-inside/BGS10-Info.html"><img src="img/p10.jpg" alt="Kerucut Sinder Yehmampeh"></a>
+								<div class="p-inner">
+									<h4><a href="./Pages-inside/BGS10-Info.html">Sinder Yehmampeh</a></h4>
+									<div class="cat">Kerucut Gunung Api &amp; Pegunungan</div>
+								</div>
+							</div>
+						</div>
+						<!-- BGS 11 Bukit Puraknya -->
+						<div class="single-portfolio col-sm-4 all portal">
+							<div class="item">
+								<a href="./Pages-inside/BGS11-Info.html"><img src="img/p11.jpg" alt="Bukit Puraknya"></a>
+								<div class="p-inner">
+									<h4><a href="./Pages-inside/BGS11-Info.html">Bukit Puraknya</a></h4>
+									<div class="cat">Bentang Alam Lainnya</div>
+								</div>
+							</div>
+						</div>
+						<!-- BGS 12 Lava 1849 -->
+						<div class="single-portfolio col-sm-4 all agency">
+							<div class="item">
+								<a href="./Pages-inside/BGS12-Info.html"><img src="img/p12.jpg" alt="Lava 1849"></a>
+								<div class="p-inner">
+									<h4><a href="./Pages-inside/BGS12-Info.html">Lava 1849</a></h4>
+									<div class="cat">Formasi Aliran Lava (Lava Flows)</div>
+								</div>
+							</div>
+						</div>
+						<!-- BGS 13 Lava 1888 -->
+						<div class="single-portfolio col-sm-4 all agency">
+							<div class="item">
+								<a href="./Pages-inside/BGS13-Info.html"><img src="img/p1.jpg" alt="Lava 1888"></a>
+								<div class="p-inner">
+									<h4><a href="./Pages-inside/BGS13-Info.html">Lava 1888</a></h4>
+									<div class="cat">Formasi Aliran Lava (Lava Flows)</div>
+								</div>
+							</div>
+						</div>
+						<!-- BGS 14 Lava 1904 -->
+						<div class="single-portfolio col-sm-4 all agency">
+							<div class="item">
+								<a href="./Pages-inside/BGS14-Info.html"><img src="img/p2.jpg" alt="Lava 1904"></a>
+								<div class="p-inner">
+									<h4><a href="./Pages-inside/BGS14-Info.html">Lava 1904</a></h4>
+									<div class="cat">Formasi Aliran Lava (Lava Flows)</div>
+								</div>
+							</div>
+						</div>
+						<!-- BGS 15 Lava 1905 -->
+						<div class="single-portfolio col-sm-4 all agency">
+							<div class="item">
+								<a href="./Pages-inside/BGS15-Info.html"><img src="img/p3.jpg" alt="Lava 1905"></a>
+								<div class="p-inner">
+									<h4><a href="./Pages-inside/BGS15-Info.html">Lava 1905</a></h4>
+									<div class="cat">Formasi Aliran Lava (Lava Flows)</div>
+								</div>
+							</div>
+						</div>
+						<!-- BGS 16 Lava 1921 -->
+						<div class="single-portfolio col-sm-4 all agency">
+							<div class="item">
+								<a href="./Pages-inside/BGS16-Info.html"><img src="img/p4.jpg" alt="Lava 1921"></a>
+								<div class="p-inner">
+									<h4><a href="./Pages-inside/BGS16-Info.html">Lava 1921</a></h4>
+									<div class="cat">Formasi Aliran Lava (Lava Flows)</div>
+								</div>
+							</div>
+						</div>
+						<!-- BGS 17 Lava 1926 -->
+						<div class="single-portfolio col-sm-4 all agency">
+							<div class="item">
+								<a href="./Pages-inside/BGS17-Info.html"><img src="img/p5.jpg" alt="Lava 1926"></a>
+								<div class="p-inner">
+									<h4><a href="./Pages-inside/BGS17-Info.html">Lava 1926</a></h4>
+									<div class="cat">Formasi Aliran Lava (Lava Flows)</div>
+								</div>
+							</div>
+						</div>
+						<!-- BGS 18 Lava 1963 -->
+						<div class="single-portfolio col-sm-4 all agency">
+							<div class="item">
+								<a href="./Pages-inside/BGS18-Info.html"><img src="img/p6.jpg" alt="Lava 1963"></a>
+								<div class="p-inner">
+									<h4><a href="./Pages-inside/BGS18-Info.html">Lava 1963</a></h4>
+									<div class="cat">Formasi Aliran Lava (Lava Flows)</div>
+								</div>
+							</div>
+						</div>
+						<!-- BGS 19 Lava 1968 -->
+						<div class="single-portfolio col-sm-4 all agency">
+							<div class="item">
+								<a href="./Pages-inside/BGS19-Info.html"><img src="img/p7.jpg" alt="Lava 1968"></a>
+								<div class="p-inner">
+									<h4><a href="./Pages-inside/BGS19-Info.html">Lava 1968</a></h4>
+									<div class="cat">Formasi Aliran Lava (Lava Flows)</div>
+								</div>
+							</div>
+						</div>
+						<!-- BGS 20 Lava 1974 -->
+						<div class="single-portfolio col-sm-4 all agency">
+							<div class="item">
+								<a href="./Pages-inside/BGS20-Info.html"><img src="img/p8.jpg" alt="Lava 1974"></a>
+								<div class="p-inner">
+									<h4><a href="./Pages-inside/BGS20-Info.html">Lava 1974</a></h4>
+									<div class="cat">Formasi Aliran Lava (Lava Flows)</div>
+								</div>
+							</div>
+						</div>
+						<!-- BGS 21 Danau Batur -->
+						<div class="single-portfolio col-sm-4 all portal">
+							<div class="item">
+								<a href="./Pages-inside/BGS21-Info.html"><img src="img/p9.jpg" alt="Danau Batur"></a>
+								<div class="p-inner">
+									<h4><a href="./Pages-inside/BGS21-Info.html">Danau Batur</a></h4>
+									<div class="cat">Bentang Alam Lainnya</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- More Details CTA Banner -->
+				<div class="row d-flex justify-content-center mt-5">
+					<div class="col-lg-10">
+						<div class="cta-box text-center p-5 rounded" style="background: linear-gradient(135deg, #1f2937, #111827); color: #fff; box-shadow: 0 10px 25px rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.1);">
+							<h2 class="text-white mb-3" style="font-weight: 700;" data-i18n="cta_title">Want to Learn More About Batur UNESCO Global Geopark?</h2>
+							<p class="mb-4" style="color: #9ca3af; font-size: 16px;" data-i18n="cta_sub">Discover official geological research, conservation programs, and guided tours.</p>
+							<a href="https://baturunescoglobalgeopark.org/" target="_blank" rel="noopener noreferrer" class="primary-btn text-uppercase" style="background: linear-gradient(135deg, #0284c7, #0369a1); color: #fff; font-weight: 700; padding: 14px 32px; border-radius: 30px; display: inline-block; text-decoration: none; box-shadow: 0 4px 15px rgba(2, 132, 199, 0.35);" data-i18n="cta_btn">
+								Visit Official UNESCO Geopark Website
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<!-- End portfolio-area Area -->
+
+		<!-- start footer Area -->
+		<footer class="footer-area section-gap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-sm-6">
+						<div class="single-footer-widget">
+							<h6>About Us</h6>
+							<p>We Provide Tour Plans for your most comfortable travel ever. Let yourself dive into the
+								Beauty, Culture & festivals of India. Have You're Good time at India.</p>
+							<p class="footer-text">Copyright &copy;
+								<script>document.write(new Date().getFullYear());</script> All rights reserved | This
+								Website is created with by <a href="https://github.com/mrjatinchauhan"
+									target="_blank">Jatin Chauhan</a>
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-5  col-md-6 col-sm-6">
+						<div class="single-footer-widget">
+							<h6>Newsletter</h6>
+							<p>Stay update with our latest</p>
+							<div class="" id="mc_embed_signup">
+								<form target="_blank" action="" method="get" class="form-inline">
+									<input class="form-control" name="EMAIL" placeholder="Enter Email"
+										onfocus="this.placeholder = ''"
+										onblur="this.placeholder = 'Enter Your Email Here '" required="" type="email">
+									<button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right"
+											aria-hidden="true"></i></button>
+									<div class="info"></div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+						<div class="single-footer-widget">
+							<h6>Follow Us</h6>
+							<p>Let us be social</p>
+							<div class="footer-social d-flex align-items-center">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-snapchat"></i></a>
+								<a href="#"><i class="fa fa-instagram"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End footer Area -->
+
+	</div>
+	<script src="js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/easing.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script src="js/mail-script.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+		(function() {
+			var i18nData = {
+				en: {
+					nav_home: "Home",
+					nav_places: "Geosite",
+					nav_services: "Services",
+					nav_about: "About Us",
+					banner_sub: "Be the part of this Wonderful Journey",
+					banner_title: "Incredible Bali!",
+					banner_btn: "Explore Now",
+					portfolio_title: "Explore Batur UNESCO Global Geopark",
+					portfolio_sub: "21 Geological Heritage Sites to Discover",
+					filter_all: "All",
+					filter_calderas: "Calderas",
+					filter_mountains: "Mountains",
+					filter_lava: "Lava Flows",
+					filter_others: "Others",
+					service_title: "Always in our customer Favour",
+					service_sub: "Who are always with tight Budget",
+					s1_title: "Ammenties Selection",
+					s1_desc: "It's totaly on you what you want and what you want to let it go on Hotel Selection process.",
+					s2_title: "Visa Ready",
+					s2_desc: "Just 32 Hours - What it takes get your Visa Ready and other documentation necessary for travel.",
+					s3_title: "Personalized Travel Plans",
+					s3_desc: "We have wide Varieties of Hotel & Resorts to accomodate you. 3D4N or 15D16N totally upto you.",
+					review_title: "How Our Customers felt for Us",
+					review_sub: "Who are in extreme love with friendly & inviting people",
+					cta_title: "Want to Learn More About Batur UNESCO Global Geopark?",
+					cta_sub: "Discover official geological research, conservation programs, and guided tours.",
+					cta_btn: "Visit Official UNESCO Geopark Website"
+				},
+				id: {
+					nav_home: "Beranda",
+					nav_places: "Geosite",
+					nav_services: "Layanan",
+					nav_about: "Tentang Kami",
+					banner_sub: "Jadilah Bagian dari Perjalanan Luar Biasa Ini",
+					banner_title: "Bali yang Menakjubkan!",
+					banner_btn: "Jelajahi Sekarang",
+					portfolio_title: "Jelajahi Batur UNESCO Global Geopark",
+					portfolio_sub: "21 Situs Warisan Geologi untuk Ditemukan",
+					filter_all: "Semua",
+					filter_calderas: "Kaldera",
+					filter_mountains: "Pegunungan",
+					filter_lava: "Aliran Lava",
+					filter_others: "Lainnya",
+					service_title: "Selalu Mengutamakan Kepuasan Anda",
+					service_sub: "Solusi Terbaik untuk Setiap Anggaran",
+					s1_title: "Pilihan Fasilitas",
+					s1_desc: "Anda bebas memilih fasilitas dan akomodasi hotel sesuai kebutuhan perjalanan Anda.",
+					s2_title: "Layanan Dokumen",
+					s2_desc: "Hanya 32 Jam - Waktu yang dibutuhkan untuk menyiapkan dokumen perjalanan Anda.",
+					s3_title: "Rencana Perjalanan Khusus",
+					s3_desc: "Berbagai pilihan paket tur dari 3D4N hingga 15D16N yang disesuaikan untuk Anda.",
+					review_title: "Apa Kata Pengunjung Tentang Kami",
+					review_sub: "Pengalaman nyata menjelajahi keindahan alam Bali",
+					cta_title: "Ingin Tahu Lebih Banyak Tentang Batur UNESCO Global Geopark?",
+					cta_sub: "Temukan penelitian resmi geologi, program konservasi, dan panduan wisata terlengkap.",
+					cta_btn: "Kunjungi Situs Resmi Geopark UNESCO"
+				}
+			};
+
+			var currentLang = localStorage.getItem('site_lang') || 'en';
+
+			function applyLang(lang) {
+				currentLang = lang;
+				localStorage.setItem('site_lang', lang);
+
+				// Update navbar language submenu text according to prompt:
+				// "if the text is in indonesia, make the submenu to be "eng", if the text is in english make the submenu to be "indonesia""
+				var toggleBtn = document.getElementById('lang-toggle-btn');
+				if (toggleBtn) {
+					toggleBtn.textContent = (lang === 'en') ? 'indonesia' : 'eng';
+				}
+
+				// Update all translatable elements
+				var elements = document.querySelectorAll('[data-i18n]');
+				elements.forEach(function(el) {
+					var key = el.getAttribute('data-i18n');
+					if (i18nData[lang] && i18nData[lang][key]) {
+						el.textContent = i18nData[lang][key];
+					}
+				});
+			}
+
+			// Initial application
+			applyLang(currentLang);
+
+			// Toggle event listener
+			var toggleBtn = document.getElementById('lang-toggle-btn');
+			if (toggleBtn) {
+				toggleBtn.addEventListener('click', function(e) {
+					e.preventDefault();
+					var nextLang = (currentLang === 'en') ? 'id' : 'en';
+					applyLang(nextLang);
+				});
+			}
+
+			// Floating navbar scroll and active link highlight effect
+			function updateActiveNav() {
+				var nav = document.querySelector('.floating-navbar');
+				if (nav) {
+					if (window.scrollY > 30) {
+						nav.classList.add('scrolled');
+					} else {
+						nav.classList.remove('scrolled');
+					}
+				}
+				var portfolioSec = document.getElementById('portfolio');
+				if (portfolioSec) {
+					var scrollPos = window.scrollY || window.pageYOffset;
+					var geositeLink = document.querySelector('.floating-navbar .nav-links a[href="#portfolio"]');
+					var homeLink = document.querySelector('.floating-navbar .nav-links a[href="index.html"]');
+					if (geositeLink && homeLink) {
+						if (scrollPos >= portfolioSec.offsetTop - 180) {
+							geositeLink.classList.add('active');
+							homeLink.classList.remove('active');
+						} else {
+							homeLink.classList.add('active');
+							geositeLink.classList.remove('active');
+						}
+					}
+				}
+			}
+			window.addEventListener('scroll', updateActiveNav);
+			window.addEventListener('load', updateActiveNav);
+
+			// Handle nav link click highlighting
+			var navLinks = document.querySelectorAll('.floating-navbar .nav-links li a:not(.lang-btn)');
+			navLinks.forEach(function(link) {
+				link.addEventListener('click', function() {
+					navLinks.forEach(function(l) { l.classList.remove('active'); });
+					this.classList.add('active');
+				});
+			});
+		})();
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Batur UNESCO Global Geopark - Gunung Abang">
+  <title>BGS 6 - Gunung Abang | Geopark</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link href="../css/bootstrap.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <style>
+    body {
+      padding-top: 100px;
+      font-family: 'Inter', sans-serif;
+      background-color: #f8f9fa;
+    }
+    h1, h2, h3, h4, h5, h6, .navbar-brand, .badge-cat {
+      font-family: 'Outfit', sans-serif;
+    }
+    /* Floating Pill Navbar */
+    .floating-navbar {
+      position: fixed;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+      max-width: 1100px;
+      background: transparent;
+      backdrop-filter: blur(0px);
+      -webkit-backdrop-filter: blur(0px);
+      border-radius: 50px;
+      padding: 12px 35px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: none;
+      z-index: 9999;
+      border: 1px solid transparent;
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .floating-navbar.scrolled {
+      background: rgba(226, 232, 240, 0.95);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      padding: 10px 35px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.65);
+    }
+    .floating-navbar .nav-brand {
+      font-family: 'Outfit', sans-serif;
+      font-size: 22px;
+      font-weight: 800;
+      color: #1e293b;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.5px;
+    }
+    .floating-navbar .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .floating-navbar .nav-links li a {
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      color: #334155;
+      text-decoration: none;
+      padding: 6px 4px;
+      position: relative;
+      transition: color 0.2s ease;
+      display: inline-block;
+    }
+    .floating-navbar .nav-links li a:hover,
+    .floating-navbar .nav-links li a.active {
+      color: #0284c7;
+    }
+    .floating-navbar .nav-links li a.active::after,
+    .floating-navbar .nav-links li a:hover::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 2.5px;
+      background-color: #0284c7;
+      border-radius: 2px;
+    }
+    .floating-navbar .nav-links li .lang-btn {
+      background: #0284c7;
+      color: #ffffff !important;
+      padding: 6px 18px !important;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+    .floating-navbar .nav-links li .lang-btn:hover {
+      background: #0369a1;
+      transform: translateY(-1px);
+    }
+    .floating-navbar .nav-links li .lang-btn::after {
+      display: none !important;
+    }
+    @media (max-width: 768px) {
+      .floating-navbar {
+        width: 94%;
+        padding: 10px 20px;
+      }
+      .floating-navbar .nav-links {
+        gap: 16px;
+      }
+      .floating-navbar .nav-links li a {
+        font-size: 14px;
+      }
+    }
+    .card-box {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+      margin-bottom: 30px;
+    }
+    .geosite-img {
+      border-radius: 10px;
+      width: 100%;
+      max-height: 450px;
+      object-fit: cover;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    .badge-cat {
+      background: #0284c7;
+      color: #fff;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 500;
+      display: inline-block;
+      margin-bottom: 15px;
+    }
+    .btn-maps {
+      background: #0f172a;
+      color: #fff !important;
+      padding: 10px 22px;
+      border-radius: 25px;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-block;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 12px rgba(15, 23, 42, 0.25);
+    }
+    .btn-maps:hover {
+      background: #1e293b;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(15, 23, 42, 0.35);
+    }
+    .btn-details {
+      background: linear-gradient(135deg, #0284c7, #0369a1);
+      color: #fff !important;
+      padding: 10px 22px;
+      border-radius: 25px;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-block;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(2, 132, 199, 0.35);
+    }
+    .btn-details:hover {
+      background: linear-gradient(135deg, #0369a1, #1e40af);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(2, 132, 199, 0.45);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Floating Navigation -->
+  <nav class="floating-navbar">
+    <a class="nav-brand" href="../index.html">
+      Geohub
+    </a>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../index.html#portfolio" class="active">Geosite</a></li>
+      <li><a href="#" id="lang-toggle-btn" class="lang-btn">indonesia</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container my-5">
+
+    <div class="row">
+      <div class="col-lg-7 mb-4">
+        <img class="geosite-img" src="../img/p6.jpg" alt="Gunung Abang">
+      </div>
+
+      <div class="col-lg-5">
+        <div class="card-box">
+          <span class="badge-cat">Kerucut Gunung Api & Pegunungan</span>
+          <h1 class="h2 font-weight-bold">BGS 6 - Gunung Abang</h1>
+          <h5 class="text-muted mb-4">Puncak Tertinggi di Tepian Kaldera</h5>
+          
+          <h4 class="h5 font-weight-bold mt-4">Deskripsi Geologi</h4>
+          <p class="text-justify" style="line-height: 1.8; color: #444;">Sebuah kerucut parasit dengan ketinggian 2.152 mdpl yang sebagian tubuhnya terpotong saat Kaldera Batur I terbentuk. Gunung Abang merupakan titik tertinggi di kawasan Batur UNESCO Global Geopark.</p>
+          
+          <hr class="my-4">
+          
+          <div class="d-flex justify-content-between align-items-center flex-wrap">
+            <div class="mb-2">
+              <small class="text-muted d-block">Lokasi &amp; Riset</small>
+              <strong>Batur UNESCO Global Geopark</strong>
+            </div>
+            <div class="mt-2">
+              <a href="https://maps.app.goo.gl/HNbmxx4HdQKj91JC7" target="_blank" class="btn-maps mr-2 mb-2">
+                <i class="fa fa-map-marker mr-1"></i> Google Maps
+              </a>
+              <a href="https://baturunescoglobalgeopark.org/" target="_blank" rel="noopener noreferrer" class="btn-details mb-2">
+                <i class="fa fa-external-link mr-1"></i> For More Details
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Related Pictures -->
+    <div class="card-box mt-4">
+      <h3 class="h4 font-weight-bold mb-4">Galeri Batur Geopark</h3>
+      <div class="row">
+        <div class="col-md-3 col-sm-6 mb-3">
+          <img class="img-fluid rounded shadow-sm" src="../img/p1.jpg" alt="Batur 1">
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+          <img class="img-fluid rounded shadow-sm" src="../img/p2.jpg" alt="Batur 2">
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+          <img class="img-fluid rounded shadow-sm" src="../img/p3.jpg" alt="Batur 3">
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+          <img class="img-fluid rounded shadow-sm" src="../img/p4.jpg" alt="Batur 4">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="py-4 bg-dark text-white-50 text-center">
+    <div class="container">
+      <small>Copyright &copy; Geohub - Batur UNESCO Global Geopark</small>
+    </div>
+  </footer>
+
+  <script src="../js/vendor/jquery-2.2.4.min.js"></script>
+  <script src="../js/vendor/bootstrap.min.js"></script>
+  <script>
+    (function() {
+      var currentLang = localStorage.getItem('site_lang') || 'en';
+      var btn = document.getElementById('lang-toggle-btn');
+      if (btn) {
+        btn.textContent = (currentLang === 'id') ? 'eng' : 'indonesia';
+        btn.addEventListener('click', function(e) {
+          e.preventDefault();
+          var nextLang = (currentLang === 'id') ? 'en' : 'id';
+          localStorage.setItem('site_lang', nextLang);
+          window.location.href = '../index.html';
+        });
+      }
+
+      // Floating navbar scroll effect
+      window.addEventListener('scroll', function() {
+        var nav = document.querySelector('.floating-navbar');
+        if (nav) {
+          if (window.scrollY > 30) {
+            nav.classList.add('scrolled');
+          } else {
+            nav.classList.remove('scrolled');
+          }
+        }
+      });
+    })();
+  </script>
+</body>
+
+</html>
