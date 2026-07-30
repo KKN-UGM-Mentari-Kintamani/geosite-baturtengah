@@ -17,7 +17,7 @@ const bgsSites = [
     category: 'Kaldera (Calderas)',
     subtitle: 'Kaldera di Dalam Kaldera',
     description: 'Terbentuk sekitar 20.000 tahun yang lalu akibat penurunan dasar Kaldera Batur I setelah letusan besar. Kaldera kedua ini membentuk bentang alam bertingkat yang khas di kawasan Batur UNESCO Global Geopark.',
-    image: '../img/p2.jpg',
+    image: '../img/p1.jpg',
     map: 'https://maps.app.goo.gl/g6TwFHaWVjv977Qf7'
   },
   {
@@ -26,7 +26,7 @@ const bgsSites = [
     category: 'Kerucut Gunung Api & Pegunungan',
     subtitle: 'Puncak Tertinggi Gunung Batur',
     description: 'Merupakan puncak tertinggi (sekitar 1.717 mdpl) dengan kawah berdiameter 250 meter. Dari puncak ini, pengunjung dapat melihat panorama seluruh kaldera Batur dan aktivitas vulkanik yang masih berlangsung.',
-    image: '../img/p3.jpg',
+    image: '../img/p1.jpg',
     map: 'https://maps.app.goo.gl/B4VSZHC7yzawZkWB8'
   },
   {
@@ -35,7 +35,7 @@ const bgsSites = [
     category: 'Kerucut Gunung Api & Pegunungan',
     subtitle: 'Empat Lubang Kawah Bergeser',
     description: 'Memiliki empat lubang kawah yang bergeser dari barat ke timur. Struktur kawah bertingkat dan bergeser ini menunjukkan evolusi letusan Gunung Batur dari waktu ke waktu.',
-    image: '../img/p4.jpg',
+    image: '../img/p1.jpg',
     map: 'https://maps.app.goo.gl/GjF2JyLNTjpfTyyo9'
   },
   {
@@ -44,7 +44,7 @@ const bgsSites = [
     category: 'Kerucut Gunung Api & Pegunungan',
     subtitle: 'Kawah Lereng Selatan',
     description: 'Terbentuk di lereng selatan Kerucut II dengan kedalaman kawah 10-30 meter. Kerucut ini menunjukkan migrasi pusat aktivitas vulkanik Gunung Batur ke arah selatan.',
-    image: '../img/p5.jpg',
+    image: '../img/p1.jpg',
     map: 'https://maps.app.goo.gl/xoZzrHhQMKaWmiap8'
   },
   {
@@ -53,7 +53,7 @@ const bgsSites = [
     category: 'Kerucut Gunung Api & Pegunungan',
     subtitle: 'Puncak Tertinggi di Tepian Kaldera',
     description: 'Sebuah kerucut parasit dengan ketinggian 2.152 mdpl yang sebagian tubuhnya terpotong saat Kaldera Batur I terbentuk. Gunung Abang merupakan titik tertinggi di kawasan Batur UNESCO Global Geopark.',
-    image: '../img/p6.jpg',
+    image: '../img/p1.jpg',
     map: 'https://maps.app.goo.gl/HNbmxx4HdQKj91JC7'
   },
   {
@@ -62,7 +62,7 @@ const bgsSites = [
     category: 'Kerucut Gunung Api & Pegunungan',
     subtitle: 'Kerucut Soliter Batuapung',
     description: 'Kerucut soliter berbatuapung dasitik dengan tinggi sekitar 150 meter. Gunung Payang merupakan bukti aktivitas vulkanik eksplosif yang menghasilkan endapan batu apung yang kaya silika.',
-    image: '../img/p7.jpg',
+    image: '../img/p1.jpg',
     map: 'https://maps.app.goo.gl/cAGXoDDToCAuBfXd6'
   },
   {
@@ -71,7 +71,7 @@ const bgsSites = [
     category: 'Kerucut Gunung Api & Pegunungan',
     subtitle: 'Endapan Skoria Erupsi Strombolian',
     description: 'Kerucut bermaterial skoria hasil erupsi Strombolian yang hampir mengelilingi Gunung Batur. Material kemerahan dan hitam di kawasan ini mencerminkan aktivitas lontaran lava pijar.',
-    image: '../img/p8.jpg',
+    image: '../img/p1.jpg',
     map: 'https://maps.app.goo.gl/4DUA1tHtpykZ88Lf7'
   },
   {
@@ -80,7 +80,7 @@ const bgsSites = [
     category: 'Kerucut Gunung Api & Pegunungan',
     subtitle: 'Saksi Pembentukan Kaldera II',
     description: 'Terbentuk bersamaan dengan Gunung Payang dari proses runtuhan pembentuk Kaldera Batur II. Struktur gunung ini memberikan petunjuk penting tentang evolusi geologi Kaldera Batur.',
-    image: '../img/p9.jpg',
+    image: '../img/p1.jpg',
     map: 'https://maps.app.goo.gl/gCpVrnnkT63s1Unz7'
   },
   {
@@ -89,7 +89,7 @@ const bgsSites = [
     category: 'Kerucut Gunung Api & Pegunungan',
     subtitle: 'Erupsi Rekahan Basaltik',
     description: 'Terbentuk melalui rekahan dari erupsi magma basaltik dalam volume kecil. Situs ini memperlihatkan contoh struktur kerucut sinder berukuran kompak namun sangat khas.',
-    image: '../img/p10.jpg',
+    image: '../img/p1.jpg',
     map: 'https://maps.app.goo.gl/o74ajsC1BXSRqNU56'
   },
   {
@@ -98,7 +98,7 @@ const bgsSites = [
     category: 'Bentang Alam Lainnya',
     subtitle: 'Bentang Alam Berbentuk Tanduk',
     description: 'Bentang alam berbentuk tanduk di area Toya Bungkah yang terbentuk dari longsoran dinding Kawah I bagian tenggara. Struktur ini menunjukkan proses geomorfologi longsoran raksasa (sector collapse) di masa lampau.',
-    image: '../img/p11.jpg',
+    image: '../img/p1.jpg',
     map: 'https://maps.app.goo.gl/szpECEg3ZoBzp9Ho8'
   },
   {
@@ -107,7 +107,7 @@ const bgsSites = [
     category: 'Formasi Aliran Lava (Lava Flows)',
     subtitle: 'Aliran Lava Aa Bersejarah',
     description: 'Aliran lava aa dengan permukaan kasar, retakan, dan bongkahan batuan hasil dari letusan Gunung Batur tahun 1849. Merupakan salah satu jejak aliran lava tertua yang tercatat secara bersejarah di Batur.',
-    image: '../img/p12.jpg',
+    image: '../img/p1.jpg',
     map: 'https://maps.app.goo.gl/giPgkSCwGskoyJD29'
   },
   {
@@ -125,7 +125,7 @@ const bgsSites = [
     category: 'Formasi Aliran Lava (Lava Flows)',
     subtitle: 'Jejak Lava Awal Abad ke-20',
     description: 'Aliran lava dari letusan tahun 1904 yang saat ini sebagian besar tertutup vegetasi dan lava yang lebih muda. Situs ini memperlihatkan suksesi ekologis di mana tumbuhan mulai menutupi batuan vulkanik baru.',
-    image: '../img/p2.jpg',
+    image: '../img/p1.jpg',
     map: 'https://maps.app.goo.gl/AuDue9T9NZWgM8Np6'
   },
   {
@@ -134,7 +134,7 @@ const bgsSites = [
     category: 'Formasi Aliran Lava (Lava Flows)',
     subtitle: 'Aliran Basal Lereng Selatan & Barat',
     description: 'Lava berkomposisi basal bertekstur clinker hasil letusan tahun 1905 yang menyebar luas di lereng selatan dan barat Gunung Batur. Aliran ini memperlihatkan tekstur permukaan yang sangat kasar.',
-    image: '../img/p3.jpg',
+    image: '../img/p1.jpg',
     map: 'https://maps.app.goo.gl/G9EGohBXAeK2oMnA7'
   },
   {
@@ -143,7 +143,7 @@ const bgsSites = [
     category: 'Formasi Aliran Lava (Lava Flows)',
     subtitle: 'Andesit Basaltik Lereng Selatan',
     description: 'Tersingkap di area sempit pada lereng selatan dan tersusun dari batuan andesit basaltik hasil erupsi tahun 1921. Komposisi mineralnya memberikan gambaran perubahan sifat magma Gunung Batur.',
-    image: '../img/p4.jpg',
+    image: '../img/p1.jpg',
     map: 'https://maps.app.goo.gl/m4fu9f5sCLxsfEUL7'
   },
   {
@@ -152,7 +152,7 @@ const bgsSites = [
     category: 'Formasi Aliran Lava (Lava Flows)',
     subtitle: 'Aliran Lava Terhalang Dinding Kaldera',
     description: 'Aliran lava yang menyebar ke barat daya hingga selatan sebelum terhalang dan berbelok oleh dinding Kaldera Batur II pada letusan tahun 1926. Letusan ini menimbun desa lama Batur dan Pura Ulun Danu Batur.',
-    image: '../img/p5.jpg',
+    image: '../img/p1.jpg',
     map: 'https://maps.app.goo.gl/rsAKiLs1HZ8ScRNPA'
   },
   {
@@ -161,7 +161,7 @@ const bgsSites = [
     category: 'Formasi Aliran Lava (Lava Flows)',
     subtitle: 'Cakupan Aliran Lava Terluas',
     description: 'Memiliki cakupan paling luas di kawasan Batur dengan warna abu-abu gelap hingga abu-abu hasil letusan besar tahun 1963. Hamparan batu hitam (Black Lava) ini menjadi salah satu daya tarik geoturisme utama di Bali.',
-    image: '../img/p6.jpg',
+    image: '../img/p1.jpg',
     map: 'https://maps.app.goo.gl/pSpNmFSoASVTzGYv5'
   },
   {
@@ -170,7 +170,7 @@ const bgsSites = [
     category: 'Formasi Aliran Lava (Lava Flows)',
     subtitle: 'Aliran Lava Selatan 2,2 km',
     description: 'Mengalir ke arah selatan sejauh 2,2 km dan menutupi area seluas sekitar 670.000 m² pada letusan tahun 1968. Aliran ini memperlihatkan batas yang jelas dengan vegetasi di sekitarnya.',
-    image: '../img/p7.jpg',
+    image: '../img/p1.jpg',
     map: 'https://maps.app.goo.gl/2AnzbKQafRnJSpRy8'
   },
   {
@@ -179,7 +179,7 @@ const bgsSites = [
     category: 'Formasi Aliran Lava (Lava Flows)',
     subtitle: 'Lava Bantal Hitam Keabu-abuan',
     description: 'Memiliki warna hitam keabu-abuan dan tekstur khas berupa struktur menyerupai "lava bantal" serta bongkahan aa hasil letusan terakhir Gunung Batur tahun 1974.',
-    image: '../img/p8.jpg',
+    image: '../img/p1.jpg',
     map: 'https://maps.app.goo.gl/ionDzqs3w2fPL63z9'
   },
   {
@@ -188,7 +188,7 @@ const bgsSites = [
     category: 'Bentang Alam Lainnya',
     subtitle: 'Danau Kaldera Sabit Raksasa',
     description: 'Danau kaldera berbentuk sabit dengan kedalaman maksimum sekitar 81 meter yang terletak di dasar Kaldera Batur I. Danau ini merupakan danau terbesar di Bali dan sumber air vital bagi ekosistem sekitarnya.',
-    image: '../img/p9.jpg',
+    image: '../img/p1.jpg',
     map: 'https://maps.app.goo.gl/tghCLEyWeSeaqCRW8'
   }
 ];
@@ -450,7 +450,19 @@ const generateHtml = (site) => `<!DOCTYPE html>
   <!-- Footer -->
   <footer class="py-4 bg-dark text-white-50 text-center">
     <div class="container">
-      <small>Copyright &copy; Geohub - Batur UNESCO Global Geopark</small>
+      <div class="mb-2">
+        <a href="https://www.instagram.com/mentari.kintamani?igsh=dWk0NXc2eW1qaDh4" target="_blank" rel="noopener noreferrer" class="text-white-50 mx-2" aria-label="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.453.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+          </svg>
+        </a>
+        <a href="https://www.tiktok.com/@mentari.kintamani?_r=1&_t=ZS-98PLp2tKtYi" target="_blank" rel="noopener noreferrer" class="text-white-50 mx-2" aria-label="TikTok">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
+          </svg>
+        </a>
+      </div>
+      <small>Copyright &copy; Batur UNESCO Global Geopark</small>
     </div>
   </footer>
 

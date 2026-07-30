@@ -2806,3 +2806,22 @@ h6 {
 html {
   scroll-behavior: smooth;
 }
+
+/* 4. Footer Social Icons */
+.footer-social a {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  color: #cccccc;
+  transition: all 0.3s ease;
+}
+.footer-social a svg {
+  fill: #cccccc;
+  transition: all 0.3s ease;
+}
+.footer-social a:hover,
+.footer-social a:hover svg {
+  color: #0284c7 !important;
+  fill: #0284c7 !important;
+}
